@@ -8,8 +8,6 @@ namespace AttendanceAPI.Models
         public string Name { get; set; } = "";
         public double Rate { get; set; }
         public string Remark { get; set; } = "";
-
-        // 🔥 ALWAYS STRING OUTPUT (P/A/E)
         public List<string> Attendance { get; set; } = new();
     }
 }

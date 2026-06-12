@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.3.11" />
+	  <PackageReference Include="Swashbuckle.AspNetCore" Version="10.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="attendanceAppService">
+      <HintPath>..\..\..\OneDrive\Documents\GitHub\attendanceAppService\bin\Debug\net8.0\attendanceAppService.dll</HintPath>
+    </Reference>
+    <Reference Include="attendanceDataService">
+      <HintPath>..\..\..\OneDrive\Documents\GitHub\attendanceDataService\bin\Debug\net8.0\attendanceDataService.dll</HintPath>
+    </Reference>
+    <Reference Include="AttendanceModels">
+      <HintPath>..\..\..\OneDrive\Documents\GitHub\attendanceAppService\bin\Debug\net8.0\AttendanceModels.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
